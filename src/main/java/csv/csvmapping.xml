@@ -1,0 +1,19 @@
+<hibernate-mapping>
+  <class name=«csv.CSVwrapper» table=«test_case»>
+    <id column=«ssoid» name=«ssoid» type=«java.lang.String»>
+      <generator class=«increment»/>
+    </id>
+    <property column=«ts» name=«ts» type=«java.lang.Integer»/>
+    <property column=«grp» name=«grp» type=«java.lang.String»/>
+    <property column=«type» name=«type» type=«java.lang.String»/>
+    <property column=«subtype» name=«subtype» type=«java.lang.String»/>
+    <property column=«url» name=«url» type=«java.lang.String»/>
+    <property column=«orgid» name=«orgid» type=«java.lang.String»/>
+    <property column=«formid» name=«formid» type=«java.lang.String»/>
+    <property column=«code» name=«code» type=«java.lang.String»/>
+    <property column=«ltpa» name=«ltpa» type=«java.lang.String»/>
+    <property column=«sudirresponse» name=«sudirresponse» type=«java.lang.String»/>
+    <property column=«ymdh» name=«ymdh» type=«java.lang.LocalDateTime»/>
+
+    </class>
+</hibernate-mapping>
